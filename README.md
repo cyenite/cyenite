@@ -17,11 +17,11 @@
 
 
 <a href="https://github.com/aaronkip">
- <img align="center" src="https://github-readme-stats.vercel.app/api?username=aaronkip&show_icons=true&theme=light&line_height=27" alt="Aaron's github stats"/>
+ <img align="center" src="https://github-readme-stats.vercel.app/api?username=aaronkip&show_icons=true&theme=darkt&line_height=27" alt="Aaron's github stats"/>
 </a>
 
 <a href="https://github.com/aaronkip">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aaronkip&theme=light&hide_langs_below=1" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aaronkip&theme=dark&hide_langs_below=1" />
 </a>
 
 <div align="center">
