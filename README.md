@@ -1,8 +1,8 @@
-<p align="center">
+
 [![Github](https://img.shields.io/github/followers/aaronkip?label=Follow&style=social)](https://github.com/aaronkip)
 [![Twitter: imthepk](https://img.shields.io/twitter/follow/aarkip?style=social)](https://twitter.com/aarkip)
 [![Linkedin: imthepk](https://img.shields.io/badge/-aaronkip-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/aaronkip/)](https://www.linkedin.com/in/aaronkip/)
- </p>
+
 <hr>
 <h3 align="center">Show me your cards</h3>
 <br>
