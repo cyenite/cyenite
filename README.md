@@ -4,7 +4,7 @@
 [![Linkedin: imthepk](https://img.shields.io/badge/-aaronkip-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/aaronkip/)](https://www.linkedin.com/in/aaronkip/)
 
 <hr>
-<h3 align="center">Show me your cards</h3>
+<h3 align="center">My Cards</h3>
 <br>
 <p align="center">
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/flutter/flutter.png"></code>
