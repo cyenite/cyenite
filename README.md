@@ -1,5 +1,5 @@
 
-[![Github](https://img.shields.io/github/followers/aaronkip?label=Follow&style=social)](https://github.com/aaronkip)
+[![Github](https://img.shields.io/github/followers/cyenite?label=Follow&style=social)](https://github.com/aaronkip)
 [![Twitter: imthepk](https://img.shields.io/twitter/follow/aarkip?style=social)](https://twitter.com/aarkip)
 [![Linkedin: imthepk](https://img.shields.io/badge/-aaronkip-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/aaronkip/)](https://www.linkedin.com/in/aaronkip/)
 
@@ -26,11 +26,11 @@
 </center>
 <br>
 
-|![](https://github-readme-stats.vercel.app/api?username=aaronkip&&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515)|![](https://github-readme-stats.vercel.app/api/top-langs/?username=aaronkip&layout=compact&theme=tokyonight&langs_count=10)|
+|![](https://github-readme-stats.vercel.app/api?username=cyenite&&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515)|![](https://github-readme-stats.vercel.app/api/top-langs/?username=cyenite&layout=compact&theme=tokyonight&langs_count=10)|
 |-|-|
 
-![](https://activity-graph.herokuapp.com/graph?username=aaronkip&theme=redical)
+![](https://activity-graph.herokuapp.com/graph?username=cyenite&theme=redical)
 
 <br>
-<p align="center"><p align="center"> <img src="https://komarev.com/ghpvc/?username=aaronkip" alt="blueedge"/> </p>  </p>
+<p align="center"><p align="center"> <img src="https://komarev.com/ghpvc/?username=cyenite" alt="blueedge"/> </p>  </p>
 <br>
