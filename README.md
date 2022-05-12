@@ -1,3 +1,5 @@
+<h3 align="center">Socials</h3>
+<br>
 
 [![Github](https://img.shields.io/github/followers/cyenite?label=Follow&style=social)](https://github.com/aaronkip)
 [![Twitter: imthepk](https://img.shields.io/twitter/follow/aarkip?style=social)](https://twitter.com/aarkip)
@@ -7,7 +9,7 @@
 <h3 align="center">My Cards</h3>
 <br>
 <img
-  src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=cyenite&badges=2&show-avatar=false&style=--header-bg-color:%23000;--border-radius:10px"
+  src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=cyenite&badges=3&show-avatar=true&style=--header-bg-color:%2372a0a8;--border-radius:10px"
 />
 <p align="center">
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/flutter/flutter.png"></code>
@@ -23,8 +25,6 @@
 </p>
 
 <div align="center">
-
-### Show some ❤️ by starring some of the repositories!
 
 </center>
 <br>
