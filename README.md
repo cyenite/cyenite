@@ -6,6 +6,9 @@
 <hr>
 <h3 align="center">My Cards</h3>
 <br>
+<img
+  src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=cyenite&badges=2&show-avatar=false&style=--header-bg-color:%23000;--border-radius:10px"
+/>
 <p align="center">
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/flutter/flutter.png"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/dart/dart.png"></code>
