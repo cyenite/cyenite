@@ -8,9 +8,9 @@
 <hr>
 <h3 align="center">My Cards</h3>
 <br>
-<img
-  src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=cyenite&badges=3&show-avatar=true&style=--header-bg-color:%2372a0a8;--border-radius:10px"
-/>
+
+![My codersrank summary](https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=cyenite "My Codersrank Summary")
+
 <p align="center">
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/flutter/flutter.png"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/dart/dart.png"></code>
