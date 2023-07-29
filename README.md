@@ -6,10 +6,9 @@
 [![Linkedin: imthepk](https://img.shields.io/badge/-aaronkip-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/aaronkip/)](https://www.linkedin.com/in/aaronkip/)
 
 <hr>
-<h3 align="center">My Cards</h3>
+<h3 align="center">My Stack and Tools</h3>
 <br>
 
-![](https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=cyenite)
 
 <p align="center">
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/flutter/flutter.png"></code>
@@ -28,12 +27,4 @@
 
 </center>
 <br>
-
-|![](https://github-readme-stats.vercel.app/api?username=cyenite&&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515)|![](https://github-readme-stats.vercel.app/api/top-langs/?username=cyenite&layout=compact&theme=tokyonight&langs_count=10)|
-|-|-|
-
-![](https://activity-graph.herokuapp.com/graph?username=cyenite&theme=redical)
-
-<br>
 <p align="center"><p align="center"> <img src="https://komarev.com/ghpvc/?username=cyenite" alt="blueedge"/> </p>  </p>
-<br>
