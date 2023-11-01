@@ -1,6 +1,6 @@
-# Hey there! I'm Aaron Kipkoech, but you can call me Cyenite. ☕
+# Hey there! I'm Aaron aka Cyenite.
 
-With a knack for coding and debugging, I venture through the realms of technology alongside the spirited folks at [Kenovators](https://github.com/Kenovators), right from the heart of Nairobi, Kenya.
+With a knack for coding and debugging, I brew logic over coffee in Nairobi, Kenya! ☕
 
 ## 🛠️ Technologies & Tools
 - **Languages:** Dart, Kotlin, Java, C#, Assembly, TypeScript, JavaScript, Python, R, PHP
