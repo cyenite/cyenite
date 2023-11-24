@@ -12,9 +12,6 @@ With a knack for coding and debugging, I brew logic over coffee in Nairobi, Keny
 - **Quickdraw**
 - **Arctic Code Vault Contributor**
 
-## 📈 GitHub Stats
-![Cyenite's GitHub Stats](https://github-readme-stats.vercel.app/api?username=cyenite&show_icons=true&hide_title=true&count_private=true&hide=prs&theme=default_repocard)
-
 ## 📂 Highlighted Repositories
 - [codescribe](https://github.com/cyenite/codescribe) - A JetBrains plugin for generating technical and general documentation.
 - [Cognitive-Video-Frame-Analyzer](https://github.com/cyenite/Cognitive-Video-Frame-Analyzer) - Analyzing video frames using Microsoft Cognitive Services.
