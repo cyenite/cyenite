@@ -1,6 +1,6 @@
-# Hey there! I'm Aaron aka Cyenite.
+# Hey there! I'm Aaron.
 
-With a knack for coding and debugging, I brew logic over coffee in Nairobi, Kenya! ☕
+With a knack for coding and debugging, I brew logic over coffee ☕
 
 ## 🛠️ Technologies & Tools
 - **Languages:** Dart, Kotlin, Java, C#, Assembly, TypeScript, JavaScript, Python, R, PHP
