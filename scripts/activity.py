@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os
+import html
 import json
 import math
 import time
@@ -22,11 +23,13 @@ query($login: String!) {
   user(login: $login) {
     contributionsCollection { contributionCalendar { weeks { contributionDays { date contributionCount } } } }
     repositories(first: 100, ownerAffiliations: OWNER, privacy: PUBLIC, isFork: false, orderBy: {field: CREATED_AT, direction: DESC}) {
-      nodes { name createdAt isPrivate }
+      nodes { url name description createdAt isPrivate }
     }
   }
 }
 """
+PAGE = "https://cyenite.github.io/activity/"
+MARKERS = ("<!-- repos:start -->", "<!-- repos:end -->")
 
 
 @dataclass(frozen=True)
@@ -37,7 +40,9 @@ class Day:
 
 @dataclass(frozen=True)
 class Launch:
+    url: str
     name: str
+    description: str
     on: date
 
 
@@ -148,7 +153,10 @@ def fetch(login, now):
     days = [Day(count=d["contributionCount"], on=date.fromisoformat(d["date"])) for w in weeks for d in w["contributionDays"]]
     days = [d for d in days if d.on <= now.date()]
     nodes = [n for n in user["repositories"]["nodes"] if not n["isPrivate"]]
-    launches = [Launch(name=n["name"], on=date.fromisoformat(n["createdAt"][:10])) for n in nodes]
+    launches = [
+        Launch(url=n["url"], name=n["name"], description=n["description"] or "", on=date.fromisoformat(n["createdAt"][:10]))
+        for n in nodes
+    ]
     return Activity(login=login, now=now, days=days, launches=[l for l in launches if l.on >= days[0].on])
 
 
@@ -304,6 +312,49 @@ def markers(launches, candles, x, y, theme, left, right):
     return parts
 
 
+def record(activity):
+    candles = activity.candles()
+    closes = [c.close for c in candles]
+    best = activity.best
+    momentum = activity.momentum
+    return {
+        "login": activity.login,
+        "updated": activity.now.strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "total": activity.total,
+        "momentum": None if momentum is None else round(momentum, 4),
+        "streak": activity.streak,
+        "longest": activity.longest,
+        "best": {"date": best.on.isoformat(), "count": best.count},
+        "fields": ["date", "count", "open", "high", "low", "close", "ma20"],
+        "days": [
+            [c.on.isoformat(), c.volume, *(round(v, 3) for v in (c.open, c.high, c.low, c.close, mean(closes[max(0, i - 19):i + 1])))]
+            for i, c in enumerate(candles)
+        ],
+        "repos": [
+            {"url": l.url, "name": l.name, "created": l.on.isoformat(), "description": l.description}
+            for l in sorted(activity.launches, key=lambda l: l.on, reverse=True)
+        ],
+    }
+
+
+def links(activity):
+    repos = sorted(activity.launches, key=lambda l: l.on, reverse=True)
+    names = " · ".join(f'<a href="{html.escape(l.url)}">{html.escape(l.name)}</a>' for l in repos)
+    return (
+        f'<p align="center"><a href="{PAGE}"><b>Open the interactive chart</b></a></p>\n'
+        f'<p align="center"><sub>NEW PUBLIC REPOS</sub><br>{names}</p>'
+    )
+
+
+def update_readme(activity):
+    path = ROOT / "README.md"
+    readme = path.read_text()
+    start, end = MARKERS
+    if start in readme and end in readme:
+        head, rest = readme.split(start, 1)
+        path.write_text(f"{head}{start}\n{links(activity)}\n{end}{rest.split(end, 1)[1]}")
+
+
 def main():
     login = os.environ.get("ACTIVITY_LOGIN", "cyenite")
     activity = fetch(login, datetime.now(timezone.utc))
@@ -311,6 +362,8 @@ def main():
     assets.mkdir(exist_ok=True)
     (assets / "activity-dark.svg").write_text(chart(activity, DARK))
     (assets / "activity-light.svg").write_text(chart(activity, LIGHT))
+    (assets / "activity.json").write_text(json.dumps(record(activity), separators=(",", ":")) + "\n")
+    update_readme(activity)
     print(f"{login}: {activity.total:,} contributions, {len(activity.launches)} new public repos")
 
 
