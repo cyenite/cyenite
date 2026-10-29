@@ -1,5 +1,9 @@
-<a href="https://cyenite.github.io/activity/"><img src="assets/activity-dark.svg#gh-dark-mode-only" width="100%" alt="Daily candlestick chart of cyenite's GitHub contributions over the last 120 days, with new public repositories marked. Opens the interactive chart."></a>
-<a href="https://cyenite.github.io/activity/"><img src="assets/activity-light.svg#gh-light-mode-only" width="100%" alt="Daily candlestick chart of cyenite's GitHub contributions over the last 120 days, with new public repositories marked. Opens the interactive chart."></a>
+<a href="https://cyenite.github.io/activity/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
+    <img src="assets/activity-light.svg" width="100%" alt="Daily candlestick chart of cyenite's GitHub contributions over the last 120 days, with new public repositories marked. Opens the interactive chart.">
+  </picture>
+</a>
 
 <!-- repos:start -->
 <p align="center"><a href="https://cyenite.github.io/activity/"><b>Open the interactive chart</b></a></p>
