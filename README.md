@@ -7,5 +7,5 @@
 
 <!-- repos:start -->
 <p align="center"><a href="https://cyenite.github.io/activity/"><b>Open the interactive chart</b></a></p>
-<p align="center"><sub>NEW PUBLIC REPOS</sub><br><a href="https://github.com/cyenite/keyhold">keyhold</a> · <a href="https://github.com/cyenite/xBO">xBO</a> · <a href="https://github.com/cyenite/shorecat">shorecat</a> · <a href="https://github.com/cyenite/OpenTerm5">OpenTerm5</a> · <a href="https://github.com/cyenite/os">os</a> · <a href="https://github.com/cyenite/noryxon">noryxon</a></p>
+<p align="center"><sub>NEW PUBLIC REPOS</sub><br><a href="https://github.com/cyenite/annex">annex</a> · <a href="https://github.com/cyenite/keyhold">keyhold</a> · <a href="https://github.com/cyenite/xBO">xBO</a> · <a href="https://github.com/cyenite/shorecat">shorecat</a> · <a href="https://github.com/cyenite/OpenTerm5">OpenTerm5</a> · <a href="https://github.com/cyenite/os">os</a> · <a href="https://github.com/cyenite/noryxon">noryxon</a></p>
 <!-- repos:end -->
